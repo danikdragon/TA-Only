@@ -8,7 +8,8 @@
    php artisan key:generate
    
    type nul > database/database.sqlite
-   php artisan migrate:fresh --seeder=DemoSeeder
+   php artisan migrate:fresh
+   php artisan test
    ```
 
 3. **Запустите сервер:**
